@@ -112,7 +112,8 @@ Visit: http://localhost:5173
 Abhishek Bochare
 📧 abhishekbochare2003@gmail.com
 
-🙌 Support & Contribution
+## 🙌 Support & Contribution
+
 Contributions, issues and feature requests are welcome!
 If you like this project, please give it a ⭐️ and share it with fellow developers.
 

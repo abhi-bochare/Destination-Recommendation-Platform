@@ -2,7 +2,7 @@
 
 A personalized travel recommendation platform that helps users discover ideal destinations based on preferences like interests, budget, travel style, and more. Travel smarter and better with **TravelGenius**!
 
-[🚀 Live Demo](https://dest-recommendation.netlify.app/) · [📧 Contact](abhishekbochare2003@gmail.com)
+[🚀 Live Demo](https://dest-recommendation.netlify.app/) 
 
 ---
 
@@ -47,11 +47,14 @@ src/
 ├── routes/
 ├── utils/
 ├── firebase.js
-└── App.jsx
+└── App.jsx\
+
 🧑‍💻 Getting Started
+
 1. Clone the Repository
    
 git clone https://github.com/abhi-bochare/Destination-Recommendation-Platform.git
+
 cd Destination-Recommendation-Platform
 
 2. Install Dependencies
@@ -106,8 +109,6 @@ Visit: http://localhost:5173
 🧑‍🎓 Author
 Abhishek Bochare
 📧 abhishekbochare2003@gmail.com
-🔗 LinkedIn
-💻 GitHub
 
 🙌 Support & Contribution
 Contributions, issues and feature requests are welcome!

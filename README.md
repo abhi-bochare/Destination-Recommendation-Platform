@@ -4,6 +4,8 @@ A personalized travel recommendation platform that helps users discover ideal de
 
 [🚀 Live Demo](https://dest-recommendation.netlify.app/) 
 
+🎥 Explanation Video <https://youtu.be/9iL-POkA8a4>
+
 ---
 
 ## ✨ Features

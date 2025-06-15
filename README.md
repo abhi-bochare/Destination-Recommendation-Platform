@@ -6,9 +6,7 @@ A personalized travel recommendation platform that helps users discover ideal de
 
 ---
 
-## 📸 Preview
-
-✨ Features
+## ✨ Features
 
 🔐 User Authentication (Sign Up, Login with Firebase)
 
@@ -30,14 +28,15 @@ A personalized travel recommendation platform that helps users discover ideal de
 
 📱 Responsive UI (desktop, tablet, mobile)
 
-🧪 Tech Stack
+## 🧪 Tech Stack
 Frontend	Firebase Backend	State Management
 React + Vite	Firebase Firestore	Redux Toolkit
 Tailwind CSS	Firebase Auth	Redux Persist
 React Router DOM		
 Leaflet (Maps)		
 
-📁 Folder Structure
+## 📁 Folder Structure
+
 src/
 ├── assets/
 ├── components/
@@ -49,7 +48,8 @@ src/
 ├── firebase.js
 └── App.jsx\
 
-🧑‍💻 Getting Started
+## 🧑‍💻 Getting Started
+
 
 1. Clone the Repository
    
@@ -90,14 +90,13 @@ const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export const auth = getAuth(app);
 
-
-🚀 Run Locally
+## 🚀 Run Locally
 
 npm run dev
 Visit: http://localhost:5173
 
+## ✅ Features to Improve
 
-✅ Features to Improve
  Add real-time review submission & edit/delete
 
  Connect itinerary to external calendar apps
@@ -106,7 +105,8 @@ Visit: http://localhost:5173
 
  Dark mode support
 
-🧑‍🎓 Author
+## 🧑‍🎓 Author
+
 Abhishek Bochare
 📧 abhishekbochare2003@gmail.com
 

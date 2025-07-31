@@ -36,26 +36,18 @@
 
 ## 📁 Folder Structure
 
-
+```
 src/
-
 ├── assets/
-
 ├── components/
-
 ├── pages/
-
 ├── data/
-
 ├── redux/
-
 ├── routes/
-
 ├── utils/
-
 ├── firebase.js
-
 └── App.jsx\
+```
 
 ---
 ## 🧑‍💻 Getting Started

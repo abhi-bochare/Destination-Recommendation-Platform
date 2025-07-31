@@ -1,80 +1,89 @@
-# 🌍 Destination Recommendation Platform – TravelGenius
+# 🌍 **Destination Recommendation Platform – TravelGenius**
 
-A personalized travel recommendation platform that helps users discover ideal destinations based on preferences like interests, budget, travel style, and more. Travel smarter and better with **TravelGenius**!
+> A personalized travel recommendation platform that helps users discover ideal destinations based on preferences like interests, budget, travel style, and more.  
+> Travel smarter and better with **TravelGenius**! ✈️🧳🌏
 
-[🚀 Live Demo](https://dest-recommendation.netlify.app/) 
+---
 
-🎥 Explanation Video <https://youtu.be/9iL-POkA8a4>
+### 🚀 [Live Demo](https://dest-recommendation.netlify.app/) • 🎥 [Explanation Video](https://youtu.be/9iL-POkA8a4)
 
 ---
 
 ## ✨ Features
 
-🔐 User Authentication (Sign Up, Login with Firebase)
+- 🔐 **User Authentication** – Sign Up & Login with Firebase
+- 🧠 **Smart Recommendations** based on interests, budget & activities
+- 🗺️ **Interactive Map View** using Leaflet
+- ⭐ **Favorites Management** stored per user
+- 📌 **Itinerary Builder** for trip planning
+- ➕ **Compare Destinations** (up to 3 at a time)
+- 🔥 **Trending Destinations** (based on review count)
+- 🔍 **Search, Filters & Pagination**
+- 💬 **User Reviews Section** *(static demo)*
+- 📱 **Responsive UI** – works on desktop, tablet & mobile
 
-🧠 Smart Recommendations based on interests, budget, activities
-
-🗺️ Interactive Map View using Leaflet
-
-⭐ Favorites Management stored per user
-
-📌 Itinerary Builder for trip planning
-
-➕ Destination Comparison (up to 3 destinations)
-
-🔥 Trending Destinations (based on review count)
-
-🔍 Search, Filters & Pagination
-
-💬 User Reviews Section (static demo)
-
-📱 Responsive UI (desktop, tablet, mobile)
+---
 
 ## 🧪 Tech Stack
-Frontend	Firebase Backend	State Management
-React + Vite	Firebase Firestore	Redux Toolkit
-Tailwind CSS	Firebase Auth	Redux Persist
-React Router DOM		
-Leaflet (Maps)		
+
+| Frontend         | Backend / Auth     | State Management     | Maps      |
+|------------------|--------------------|-----------------------|-----------|
+| React + Vite     | Firebase Firestore | Redux Toolkit         | Leaflet   |
+| Tailwind CSS     | Firebase Auth      | Redux Persist         |           |
+| React Router DOM |                    |                       |           |
+
+---
 
 ## 📁 Folder Structure
 
+
 src/
+
 ├── assets/
+
 ├── components/
+
 ├── pages/
+
 ├── data/
+
 ├── redux/
+
 ├── routes/
+
 ├── utils/
+
 ├── firebase.js
+
 └── App.jsx\
 
+---
 ## 🧑‍💻 Getting Started
 
 
-1. Clone the Repository
-   
+### 1. Clone the Repository
+
+```   
 git clone https://github.com/abhi-bochare/Destination-Recommendation-Platform.git
 
 cd Destination-Recommendation-Platform
-
-2. Install Dependencies
-
+```
+### 2. Install Dependencies
+```
 npm install
-
-3. Configure Firebase
+```
+### 3. Configure Firebase
    
-Go to Firebase Console
+- Go to Firebase Console
 
-Create a new project
+- Create a new project
 
-Enable Authentication (Email/Password)
+- Enable Authentication (Email/Password)
 
-Set up Cloud Firestore
+- Set up Cloud Firestore
 
-Add your Firebase config in src/firebase.js:
-
+- Add your Firebase config in src/firebase.js:
+```
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
@@ -91,27 +100,32 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export const auth = getAuth(app);
+```
 
 ## 🚀 Run Locally
-
+```
 npm run dev
-Visit: http://localhost:5173
+```
+Visit:👉 http://localhost:5173
 
-## ✅ Features to Improve
+---
+## 🛠️ Features to Improve
 
- Add real-time review submission & edit/delete
+ - ✅Add real-time review submission & edit/delete.
 
- Connect itinerary to external calendar apps
+ - ✅Connect itinerary to external calendar apps.
 
- Integrate flight/hotel API
+ - ✅Integrate flight/hotel API.
 
- Dark mode support
+ - ✅Dark mode support.
 
+---
 ## 🧑‍🎓 Author
 
 Abhishek Bochare
 📧 abhishekbochare2003@gmail.com
 
+---
 ## 🙌 Support & Contribution
 
 Contributions, issues and feature requests are welcome!
